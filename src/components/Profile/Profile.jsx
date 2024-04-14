@@ -13,7 +13,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
       <ul className={css.statsList}>
         <li className={css.statsItem}>
           <span className={css.statsDesc}>Followers</span>
-          <span className={css.itemStats}>{stats.followers}</span>
+          <span className={css.quantity}>{stats.followers}</span>
         </li>
 
         <li className={css.statsItem}>
@@ -21,7 +21,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
           <span className={css.quantity}>{stats.views}</span>
         </li>
 
-        <li className={css.statsItem}>
+        <li className={`${css.statsItem} ${css.lastInRow}`}>
           <span className={css.statsDesc}>Likes</span>
           <span className={css.quantity}>{stats.likes}</span>
         </li>

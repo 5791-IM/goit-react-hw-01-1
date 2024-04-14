@@ -1,0 +1,13 @@
+.friendsList {
+  display: flex;
+  margin-top: 50px;
+  /* flex-wrap: wrap; */
+}
+
+/* .friensCard {
+  width: 140px;
+  height: 180px;
+  margin: 10px;
+  border: 2px solid rgb(25, 186, 36);
+  border-radius: 8px;
+} */
